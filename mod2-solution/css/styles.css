@@ -7,13 +7,15 @@
 			font-style: italic;
 			float: left;
 			width: 31%;
-			margin-bottom: 15px;
+			margin: 1.1666%;
+
 		}
 		
 		h1 {
+			text-align: center;
 
-			margin-top:25px;
-			margin-left: 600px;
+			/*margin-top:25px;
+			margin-left: 50%;*/
 		}
 		h2 {
 			text-align: center;
@@ -30,7 +32,7 @@
 		#s1 {
 			padding-left: 25px;
 			padding-right: 25px;
-			margin-left: 25px;
+			
 			border-style: solid;
 			border-color: black;
 			background-color: DarkGreen;
@@ -38,7 +40,7 @@
 #s2 {
 			padding-left: 25px;
 			padding-right: 25px;
-			margin-left: 25px;
+			
 			border-style: solid;
 			border-color: black;
 			background-color: DimGrey;
@@ -46,7 +48,7 @@
 #s3 {
 			padding-left: 25px;
 			padding-right: 25px;
-			margin-left: 25px;
+			
 			border-style: solid;
 			border-color: black;
 			background-color: MediumPurple;
@@ -54,27 +56,38 @@
 		@media (min-width: 992px) {
 			section {
 				width: 31%;
+
 			}
 		}
 		@media (min-width: 768px) and (max-width: 991px){
 			#s1 {
 				width: 46.5%;
+				margin: 1.75%;
 			}
 			#s2 {
 				width: 46.5%;
+				margin: 1.75%;
 			}
 			#s3 {
-				width: 96%;
+				width: 96.5%;
+				margin: 1.75%;
 			}
 		}
 		@media (max-width: 767px){
 			#s1 {
-				width: 96%;
+				width: 96.5%;
+				margin-left: 1.75%;
 			}
 			#s2 {
-				width: 96%;
+				width: 96.5%;
+				margin-left: 1.75%;
 			}
 			#s3 {
-				width: 96%;
+				width: 96.5%;
+				margin-left: 1.75%;
 			}
 		}
+		/*.section-wrapper {
+			margin-left: 10%;
+			margin-right: 10%;
+		}*/
